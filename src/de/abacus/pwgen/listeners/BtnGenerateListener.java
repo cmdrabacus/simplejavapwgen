@@ -50,7 +50,6 @@ public class BtnGenerateListener extends WindowAdapter implements ActionListener
                 JOptionPane.showMessageDialog(mainframe,"Geben Sie bitte eine Zahl ein.", "", 0);
                 mainframe.getTflength().setText("");
                 mainframe.getTflength().requestFocus();
-                return;
             }
         }
         
